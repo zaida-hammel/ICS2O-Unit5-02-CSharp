@@ -7,7 +7,7 @@ using System;
 
 class Program
 {
-    public static void Main(string[] args){
+    public static void Main(string[] args){ 
         int userInteger;
         Console.WriteLine("Write any number (positive or negative):");
         userInteger = int.Parse(Console.ReadLine());
