@@ -17,7 +17,9 @@ class Program
             userInteger = Convert.ToInt32(Console.Read());
             Console.WriteLine("The integer you input is positive.");
             Console.ReadLine();
-        } else {
+        } 
+        else 
+        {
             Console.WriteLine("The integer you input is a negative.");
         }
     }
